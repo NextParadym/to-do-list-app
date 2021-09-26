@@ -76,6 +76,9 @@ form{
 .container {
 	max-width: 100%;
 	}
+input{
+	width: 80%;
+	}
 }
 /*media queries for minwidth: 500px and maxwidth: 750*/
 @media all and (min-width: 500px) and (max-width: 750px) {
@@ -83,10 +86,13 @@ body {
 	font-size: 80%;
 	}
 form{
-	max-width: 100%;
+	max-width: 50%;
 	}
 .container {
-	max-width: 100%;
+	max-width: 50%;
+	}
+	input{
+		width: 80%;
 	}
 }
   /*media queries for maxwidth: 500px */
@@ -95,9 +101,12 @@ body {
 	font-size: 80%;
 	}
 form{
-	max-width: 100%;
+	max-width: 30%;
 	}
 .container {
-	max-width: 80%;
+	max-width: 30%;
     }
+input{
+	width: 80%;
+	}
 }
