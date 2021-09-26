@@ -21,7 +21,7 @@ height: 100%;
 width: 100%;
 }
 
-input{
+#input{
 padding: 4px 15px 4px 5px;
 }
 
@@ -76,8 +76,8 @@ form{
 .container {
 	max-width: 100%;
 	}
-input{
-	width: 80%;
+#input{
+	width: 100%;
 	}
 }
 /*media queries for minwidth: 500px and maxwidth: 750*/
@@ -91,8 +91,8 @@ form{
 .container {
 	max-width: 50%;
 	}
-	input{
-		width: 90%;
+#input{
+	width: 80%;
 	}
 }
   /*media queries for maxwidth: 500px */
@@ -106,7 +106,7 @@ form{
 .container {
 	max-width: 30%;
     }
-input{
-	width: 80%;
+#input{
+	width: 50%;
 	}
 }
