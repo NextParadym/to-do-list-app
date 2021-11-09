@@ -1,6 +1,5 @@
 
 function newItem(){
-
 //1. Adding a new item to the list:
 
   let li = $('<li></li>');
